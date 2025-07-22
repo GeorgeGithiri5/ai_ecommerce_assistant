@@ -13,12 +13,13 @@ st.set_page_config(
     }
 )
 
+# Title and Header
 st.title("🛒 AI-Powered Shopping Assistant")
-st.write("Chat with our AI assistant to find the best products and compare them effortlessly")
+st.write("Chat with our AI assistant to find the best products and compare them effortlessly.")
 
-if "are_keys_available" not in st.session_state:
-    st.session_state["are_keys_available"] = False
-
+if "are_keys_avaibale" not in st.session_state:
+    st.session_state["are_keys_avaibale"] = False 
+        
 image_container = st.container()
 
 with st.sidebar:
